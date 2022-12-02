@@ -17,8 +17,8 @@ REGX = re.compile(
   r"(?:.*)(?:S|season)(?:\s|-)*(\d+)(?:\s|x|-|.)*(?:e|x|episode|ep)(?:\s|-)*(\d+)", 
   re.IGNORECASE
 )
-SHOW_NAME = "Death Note"
-SHOW_BUCKET_NAME = "deathnote-every-frame"
+SHOW_NAME = ""
+SHOW_BUCKET_NAME = ""
 FRAMES = f"{SHOW_BUCKET_NAME}_frames"
 SHOW_DATA = defaultdict(dict)
 if not os.path.isdir(FRAMES): os.mkdir(FRAMES)
